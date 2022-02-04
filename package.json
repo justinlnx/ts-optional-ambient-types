@@ -1,0 +1,15 @@
+{
+  "name": "pro1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Justin Liang",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "preinstall": "node ./install.js",
+    "build": "node ./build.js"
+  },
+  "private": true
+}

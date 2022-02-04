@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.common.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "outDir": "./dist/es",
+    "rootDir": "."
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+  ],
+  // package 2 needs to reference package 1
+  "references": []
+}
